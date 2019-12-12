@@ -1,9 +1,9 @@
-2019/12/11
+2019/12/12
 
 inhancment
 
 ### Description
-I've made some inhancment changes
+I've made some inhancment changes.
 
 ### Files used
 Include the files used:
@@ -12,7 +12,7 @@ chicago.csv
 new_york_city.csv
 washington.csv
 
-End
+Last Edit
 
 
 
