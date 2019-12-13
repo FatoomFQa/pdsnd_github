@@ -1,28 +1,20 @@
-<<<<<<< HEAD
-2019/12/12
+###Date created
+13/12/2019
 
-inhancment
+###Project Title
+Bikeshare in USA
 
-### Description
-I've made some inhancment changes.
+###Description
+the project provide an idea to how to answer a set of questions that the you user may have, by puting a simple code to ansewr these questions about bikeshare in some cities in USA
 
-### Files used
-Include the files used:
-Bikeshare.py
+
+###Files used
+Bikeshare_2.py
 chicago.csv
-new_york_city.csv
-washington.csv
+New_york_city.csv
 
-Last Edit
-
-
-
-=======
-Another EDIT
-
-last edit.
+###Credits
+thank you
 
 
-END
->>>>>>> documentation
 
