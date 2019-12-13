@@ -1,10 +1,10 @@
-import pandas as pd
+import pandas as pn
 ##github
 raw = {'chicago': 'chicago.csv','new york city': 'new_york_city.csv', 'washington': 'washington.csv'}
 
 def get_from_files(city, month, day):
-    df = pd.read_csv(raw[city])
-    df['Start Time'] = pd.to_datetime(df['Start Time'])
+    df = pn.read_csv(raw[city])
+    df['Start Time'] = pn.to_datetime(df['Start Time'])
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     df['hour'] = df['Start Time'].dt.hour
@@ -32,7 +32,7 @@ def choices():
     return city, month, day
 
 def test_string(user_str,type):
-    #The user can retry one hadered times until correct
+    #The user can retry one 100 times until correct
     for x in range(100):
         result_str=input(user_str).lower()
         try:
@@ -120,7 +120,7 @@ def get_stats(df,city):
         earliest_year = df['Birth Year'].min()
         print('Earliest Year:', earliest_year)
 def main():
-    pd.set_option('display.max_columns', None)
+    pn.set_option('display.max_columns', None)
     # The user can replay the program 100 times
     for x in range(100):
         city, month, day = choices()
