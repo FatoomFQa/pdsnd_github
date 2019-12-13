@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2019/12/12
 
 inhancment
@@ -16,4 +17,12 @@ Last Edit
 
 
 
+=======
+Another EDIT
+
+last edit.
+
+
+END
+>>>>>>> documentation
 
